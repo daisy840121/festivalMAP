@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/MarkerCluster.css">
+    <link rel="stylesheet" href="./scss/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./scss/all.css">
+</head>
+<div class="wrip">
+    <div class="nav">
+        <h1 class="nav_title">
+            <i class="fa fa-pagelines fa-2x" aria-hidden="true"></i> <span>來趟節慶之旅</span>
+        </h1>
+        <ul class="nav_content">
+            <li>
+                <a href="#">
+                    <p>Search Activity</p>
+                    <p>搜尋活動</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>Favorites</p>
+                    <p>我的收藏</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="showList">
+         <div class="areaList">
+            <select name="county" class="citys">
+            </select>
+            <select name="district" class="zones">
+            </select>
+         </div>
+         
+<div class="content_wrap">
+    <div class="content">
+
+        <div class="content_img">
+            <i class="fa fa-star fa-2x star" aria-hidden="true"></i>
+            <img src="https://picsum.photos/id/666/1200/630" alt="">
+        </div>
+        <p class="content_title">一起守護地球吧~</p>
+        <ul class="content_item">
+            <li>開始時間:　2020/01/01</li>
+            <li>結束時間:　2099/01/01</li>
+            <li>活動地點:　請選擇活動地點 </li>
+        </ul>
+    </div>
+
+</div>
+
+    
+    </div>
+
+    <div id="map"></div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+<script src="./js/leaflet.markercluster.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+<script src="./js/map.js"></script>
+</body>
+
+</html>
+
+
+
